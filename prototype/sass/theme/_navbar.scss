@@ -1,0 +1,72 @@
+.navbar-wrapper {
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index: 20;
+  border-bottom: 1px solid #ddd;
+  transition: all .3s ease-in-out;
+
+  .navbar {
+    height:100px;
+    margin-bottom:0;
+
+    .navbar-brand {
+      img {
+        height: 80px;
+        &.affix-logo {
+          display:none;
+        }
+      }
+    }
+
+
+    .nav {
+      > li {
+        > a {
+          color: #fff;
+          padding-top:45px;
+          padding-bottom: 40px;
+          transition: all .5s ease-in-out;
+
+          &:hover, &:focus {
+            text-decoration: none;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+
+
+
+  &.affix {
+    background-color: #fff;
+
+    .navbar {
+      height:50px;
+
+      .navbar-brand {
+        padding:10px;
+        img {
+          display:none;
+
+          &.affix-logo {
+            display:block;
+            height: 40px;
+          }
+        }
+      }
+
+      .nav {
+        > li {
+          > a {
+            padding-top:20px;
+            padding-bottom: 20px;
+            color: #535353;
+          }
+        }
+      }
+    }
+  }
+}

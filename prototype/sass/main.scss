@@ -1,0 +1,24 @@
+
+@import "variables";
+
+/** normalization styles **/
+// @import "normalize";
+
+/** typography **/
+// @import "typography";
+
+/** general styles specific to elements **/
+// @import "forms";
+// @import "buttons";
+
+/** scafolding style for layouts **/
+// @import "scafolding";
+
+
+/** style related to current theme Section, Hero, Sidebar, Blog **/
+@import "theme/default";
+
+
+/** styles specific to a page Home, Feedback **/
+// @import "pages/default";
+

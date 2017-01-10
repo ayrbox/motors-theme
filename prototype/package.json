@@ -1,0 +1,27 @@
+{
+  "name": "motors-theme",
+  "version": "0.0.1",
+  "description": "Protype for motors custome them design",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-concat": "*",
+    "gulp-cssnano": "*",
+    "gulp-if": "^2.0.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-watch": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Echo: no test specieifed\" && exit 1"
+  },
+  "author": "beans",
+  "license": "MIT"
+}
