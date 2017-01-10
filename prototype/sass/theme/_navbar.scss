@@ -12,14 +12,11 @@
     margin-bottom:0;
 
     .navbar-brand {
-      img {
+      img, .brand-logo {
         height: 80px;
-        &.affix-logo {
-          display:none;
-        }
+        transition: all .2s ease-in-out;
       }
     }
-
 
     .nav {
       > li {
@@ -48,12 +45,10 @@
 
       .navbar-brand {
         padding:10px;
-        img {
-          display:none;
-
-          &.affix-logo {
-            display:block;
-            height: 40px;
+        img, .brand-logo {
+          height: 40px;
+          path {
+            fill:#424242 !important;
           }
         }
       }
@@ -63,7 +58,7 @@
           > a {
             padding-top:20px;
             padding-bottom: 20px;
-            color: #535353;
+            color: #424242;
           }
         }
       }

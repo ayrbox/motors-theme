@@ -1,0 +1,20 @@
+{
+  "name": "motors-theme",
+  "description": "Protype for motors custome them design",
+  "main": "gulpfile.js",
+  "authors": [
+    "beans"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sawbeanraz/motors-theme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.0"
+  }
+}

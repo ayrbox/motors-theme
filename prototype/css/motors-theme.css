@@ -18,12 +18,9 @@
   margin-bottom: 0;
 }
 
-.navbar-wrapper .navbar .navbar-brand img {
+.navbar-wrapper .navbar .navbar-brand img, .navbar-wrapper .navbar .navbar-brand .brand-logo {
   height: 80px;
-}
-
-.navbar-wrapper .navbar .navbar-brand img.affix-logo {
-  display: none;
+  transition: all .2s ease-in-out;
 }
 
 .navbar-wrapper .navbar .nav > li > a {
@@ -50,19 +47,18 @@
   padding: 10px;
 }
 
-.navbar-wrapper.affix .navbar .navbar-brand img {
-  display: none;
+.navbar-wrapper.affix .navbar .navbar-brand img, .navbar-wrapper.affix .navbar .navbar-brand .brand-logo {
+  height: 40px;
 }
 
-.navbar-wrapper.affix .navbar .navbar-brand img.affix-logo {
-  display: block;
-  height: 40px;
+.navbar-wrapper.affix .navbar .navbar-brand img path, .navbar-wrapper.affix .navbar .navbar-brand .brand-logo path {
+  fill: #424242 !important;
 }
 
 .navbar-wrapper.affix .navbar .nav > li > a {
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #535353;
+  color: #424242;
 }
 
 .carousel.page-banner-slider {
@@ -87,6 +83,18 @@
   left: 0;
   min-width: 100%;
   height: 500px;
+}
+
+.owl-carousel .item {
+  height: 200px;
+  background: #fff;
+  padding: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.owl-carousel .item img {
+  width: 80%;
 }
 
 /** styles specific to a page Home, Feedback **/

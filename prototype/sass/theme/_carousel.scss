@@ -25,3 +25,19 @@
     }
   }
 }
+
+
+
+.owl-carousel {
+  .item {
+    height: 200px;
+    background: #fff;
+    padding:20px;
+    display:table-cell;
+    vertical-align: middle;
+
+    img {
+      width: 80%;  
+    }
+  }
+}
