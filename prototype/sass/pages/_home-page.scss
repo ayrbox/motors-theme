@@ -1,5 +1,8 @@
 .home-services {
+  @include color($carrot, $white);
+
   .col-sm-4, .col-sm-3 {
     text-align: center;
   }
+
 }

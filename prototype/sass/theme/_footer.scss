@@ -1,0 +1,59 @@
+
+$footer-color: #424242;
+
+.footer-section {
+
+  padding-top:80px;
+  padding-bottom:25px;
+
+
+  @include color($footer-color, #ddd);
+
+
+  .footer-heading {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #fff;
+  }
+
+
+  address {
+    img {
+      height: 80px;
+      margin-left:-15px;
+      margin-right:-15px;
+    }       
+  }
+
+  ul.opening-time {
+    padding-left: 0;
+    list-style: none outside none;
+
+    li {
+      list-style: none;
+      padding-bottom: 5px;
+    }
+  }
+
+
+  ul.footer-menu {
+    padding-left: 0;
+    li {
+      display:block;
+      padding:10px 10px;
+      border-bottom: 1px solid #fff;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+    
+  }
+}
+
+
+.copyright-section {
+  background-color: darken($footer-color, 15);
+  padding:20px 0 14px;
+}

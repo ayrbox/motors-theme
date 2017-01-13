@@ -7,6 +7,9 @@
 /**
  * Typography Variables 
  */
+/**
+ * Colours
+ */
 /** normalization styles **/
 /** typography **/
 h1, h2, h3, h4, h5, h6,
@@ -243,7 +246,107 @@ body {
   margin-bottom: 40px;
 }
 
+.footer-section {
+  padding-top: 80px;
+  padding-bottom: 25px;
+  background-color: #424242;
+  color: #ddd;
+}
+
+.footer-section h1,
+.footer-section h2,
+.footer-section h3,
+.footer-section h4,
+.footer-section h5,
+.footer-section h6,
+.footer-section p,
+.footer-section blockquote,
+.footer-section pre,
+.footer-section dl,
+.footer-section dd,
+.footer-section ol,
+.footer-section ul,
+.footer-section form,
+.footer-section fieldset,
+.footer-section legend,
+.footer-section table,
+.footer-section th,
+.footer-section td,
+.footer-section caption {
+  color: #ddd;
+}
+
+.footer-section .footer-heading {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-section address img {
+  height: 80px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer-section ul.opening-time {
+  padding-left: 0;
+  list-style: none outside none;
+}
+
+.footer-section ul.opening-time li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.footer-section ul.footer-menu {
+  padding-left: 0;
+}
+
+.footer-section ul.footer-menu li {
+  display: block;
+  padding: 10px 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-section ul.footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright-section {
+  background-color: #1c1c1c;
+  padding: 20px 0 14px;
+}
+
 /** styles specific to a page Home, Feedback **/
+.home-services {
+  background-color: #e67e22;
+  color: white;
+}
+
+.home-services h1,
+.home-services h2,
+.home-services h3,
+.home-services h4,
+.home-services h5,
+.home-services h6,
+.home-services p,
+.home-services blockquote,
+.home-services pre,
+.home-services dl,
+.home-services dd,
+.home-services ol,
+.home-services ul,
+.home-services form,
+.home-services fieldset,
+.home-services legend,
+.home-services table,
+.home-services th,
+.home-services td,
+.home-services caption {
+  color: white;
+}
+
 .home-services .col-sm-4, .home-services .col-sm-3 {
   text-align: center;
 }

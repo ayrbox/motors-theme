@@ -1,0 +1,29 @@
+
+@mixin color($back, $text) {  
+  background-color: $back;  
+  color: $text;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  blockquote,
+  pre,
+  dl,
+  dd,
+  ol,
+  ul,
+  form,
+  fieldset,
+  legend,
+  table,
+  th,
+  td,
+  caption {
+    color: $text;
+  }
+
+}
