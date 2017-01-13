@@ -5,14 +5,14 @@
 // @import "normalize";
 
 /** typography **/
-// @import "typography";
+@import "typography";
 
 /** general styles specific to elements **/
 // @import "forms";
 // @import "buttons";
 
 /** scafolding style for layouts **/
-// @import "scafolding";
+@import "scaffolding";
 
 
 /** style related to current theme Section, Hero, Sidebar, Blog **/
@@ -20,5 +20,5 @@
 
 
 /** styles specific to a page Home, Feedback **/
-// @import "pages/default";
+@import "pages/default";
 
