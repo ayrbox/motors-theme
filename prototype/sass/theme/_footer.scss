@@ -47,8 +47,27 @@ $footer-color: #424242;
         color: #fff;
         text-decoration: none;
       }
+    }    
+  }
+
+
+  .signup-form {    
+    padding:0;
+    border:none;
+
+    // .form-group {
+    //   border: 1px solid green;      
+    // }
+
+    .form-control {
+      border-radius: 0;   
+      height: 45px;    
+      // width: 300px; 
     }
-    
+
+    .btn-subscribe {
+      border-radius: 0;
+    }
   }
 }
 
