@@ -20,6 +20,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "gulp serve",
     "test": "echo \"Echo: no test specieifed\" && exit 1"
   },
   "author": "beans",

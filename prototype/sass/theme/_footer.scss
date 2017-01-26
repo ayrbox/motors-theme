@@ -24,6 +24,17 @@ $footer-color: #424242;
       margin-right:-15px;
     }       
   }
+  
+  ul.social  {
+    li {      
+      a {
+        color: #fff;
+        i { 
+          font-size: 24px;
+        }
+      }
+    }
+  }
 
   ul.opening-time {
     padding-left: 0;
@@ -69,10 +80,16 @@ $footer-color: #424242;
       border-radius: 0;
     }
   }
+
 }
 
 
 .copyright-section {
   background-color: darken($footer-color, 15);
   padding:20px 0 14px;
+
+  .back-to-top {
+    color: #fff;
+  }
+  
 }
