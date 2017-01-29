@@ -1,0 +1,427 @@
+/**
+ * Screen sizes
+ */
+/**
+ * Scaffoding 
+ */
+/**
+ * Typography Variables 
+ */
+/**
+ * Colours
+ */
+/** normalization styles **/
+/** typography **/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Raleway;
+  font-weight: 900;
+  line-height: 1.2em;
+  color: #424242;
+}
+
+h1 small,
+h1 .small, h2 small,
+h2 .small, h3 small,
+h3 .small, h4 small,
+h4 .small, h5 small,
+h5 .small, h6 small,
+h6 .small,
+.h1 small,
+.h1 .small, .h2 small,
+.h2 .small, .h3 small,
+.h3 .small, .h4 small,
+.h4 .small, .h5 small,
+.h5 .small, .h6 small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #424242;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+h1 small,
+h1 .small, .h1 small,
+.h1 .small,
+h2 small,
+h2 .small, .h2 small,
+.h2 .small,
+h3 small,
+h3 .small, .h3 small,
+.h3 .small {
+  font-size: 65%;
+}
+
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+}
+
+h4 small,
+h4 .small, .h4 small,
+.h4 .small,
+h5 small,
+h5 .small, .h5 small,
+.h5 .small,
+h6 small,
+h6 .small, .h6 small,
+.h6 .small {
+  font-size: 75%;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 24px;
+}
+
+h4, .h4 {
+  font-size: 18px;
+}
+
+h5, .h5 {
+  font-size: 14px;
+}
+
+h6, .h6 {
+  font-size: 12px;
+}
+
+/**
+ * Body Text 
+ */
+p {
+  margin: 0 0 0.6em;
+}
+
+.lead {
+  margin-bottom: 1.2em;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4em;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
+}
+
+/** general styles specific to elements **/
+/** scafolding style for layouts **/
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #424242;
+  background-color: #fff;
+}
+
+/** style related to current theme Section, Hero, Sidebar, Blog **/
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+  border-bottom: 1px solid #ddd;
+  transition: all .3s ease-in-out;
+}
+
+.navbar-wrapper .navbar {
+  height: 100px;
+  margin-bottom: 0;
+}
+
+.navbar-wrapper .navbar .navbar-brand img, .navbar-wrapper .navbar .navbar-brand .brand-logo {
+  height: 80px;
+  width: 120px;
+  transition: all .2s ease-in-out;
+}
+
+.navbar-wrapper .navbar .nav > li > a {
+  color: #fff;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  transition: all .5s ease-in-out;
+}
+
+.navbar-wrapper .navbar .nav > li > a:hover, .navbar-wrapper .navbar .nav > li > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-wrapper .navbar .navbar-toggle {
+  margin-top: 40px;
+}
+
+.navbar-wrapper .navbar .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .navbar-wrapper .navbar .navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin: 18px -15px 0 -15px;
+    overflow: hidden;
+  }
+  .navbar-wrapper .navbar .navbar-collapse h1,
+  .navbar-wrapper .navbar .navbar-collapse h2,
+  .navbar-wrapper .navbar .navbar-collapse h3,
+  .navbar-wrapper .navbar .navbar-collapse h4,
+  .navbar-wrapper .navbar .navbar-collapse h5,
+  .navbar-wrapper .navbar .navbar-collapse h6,
+  .navbar-wrapper .navbar .navbar-collapse p,
+  .navbar-wrapper .navbar .navbar-collapse blockquote,
+  .navbar-wrapper .navbar .navbar-collapse pre,
+  .navbar-wrapper .navbar .navbar-collapse dl,
+  .navbar-wrapper .navbar .navbar-collapse dd,
+  .navbar-wrapper .navbar .navbar-collapse ol,
+  .navbar-wrapper .navbar .navbar-collapse ul,
+  .navbar-wrapper .navbar .navbar-collapse form,
+  .navbar-wrapper .navbar .navbar-collapse fieldset,
+  .navbar-wrapper .navbar .navbar-collapse legend,
+  .navbar-wrapper .navbar .navbar-collapse table,
+  .navbar-wrapper .navbar .navbar-collapse th,
+  .navbar-wrapper .navbar .navbar-collapse td,
+  .navbar-wrapper .navbar .navbar-collapse caption {
+    color: #fff;
+  }
+  .navbar-wrapper .navbar .navbar-collapse ul.nav li a {
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .navbar-wrapper .navbar .navbar-collapse ul.nav li a:hover, .navbar-wrapper .navbar .navbar-collapse ul.nav li a:focus {
+    text-decoration: none;
+    background-color: transparent;
+  }
+}
+
+.navbar-wrapper.affix {
+  background-color: #fff;
+}
+
+.navbar-wrapper.affix .navbar {
+  height: 50px;
+}
+
+.navbar-wrapper.affix .navbar .navbar-brand {
+  padding: 10px;
+}
+
+.navbar-wrapper.affix .navbar .navbar-brand img, .navbar-wrapper.affix .navbar .navbar-brand .brand-logo {
+  height: 40px;
+}
+
+.navbar-wrapper.affix .navbar .navbar-brand img path, .navbar-wrapper.affix .navbar .navbar-brand .brand-logo path {
+  fill: #424242 !important;
+}
+
+.navbar-wrapper.affix .navbar .nav > li > a {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #424242;
+}
+
+.navbar-wrapper.affix .navbar .navbar-toggle {
+  margin-top: 10px;
+}
+
+.navbar-wrapper.affix .navbar .navbar-toggle .icon-bar {
+  background-color: #000;
+}
+
+@media (max-width: 768px) {
+  .navbar-wrapper.affix .navbar .navbar-collapse {
+    margin-top: 0;
+  }
+}
+
+.page-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.page-section .page-section-heading {
+  font-family: 'Raleway';
+  font-weight: 900;
+}
+
+.carousel.page-banner-slider {
+  position: relative;
+}
+
+.carousel.page-banner-slider .carousel-inner .item .carousel-caption {
+  z-index: 10;
+  right: 20%;
+  left: 20%;
+  padding-bottom: 40px;
+}
+
+.carousel.page-banner-slider .carousel-inner .item img {
+  min-width: 100%;
+}
+
+.owl-carousel .item {
+  background: #fff;
+  padding: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.owl-carousel.owl-theme {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-section {
+  padding-top: 80px;
+  padding-bottom: 25px;
+  background-color: #424242;
+  color: #ddd;
+}
+
+.footer-section h1,
+.footer-section h2,
+.footer-section h3,
+.footer-section h4,
+.footer-section h5,
+.footer-section h6,
+.footer-section p,
+.footer-section blockquote,
+.footer-section pre,
+.footer-section dl,
+.footer-section dd,
+.footer-section ol,
+.footer-section ul,
+.footer-section form,
+.footer-section fieldset,
+.footer-section legend,
+.footer-section table,
+.footer-section th,
+.footer-section td,
+.footer-section caption {
+  color: #ddd;
+}
+
+.footer-section .footer-heading {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-section address img {
+  height: 80px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.footer-section ul.social li a {
+  color: #fff;
+}
+
+.footer-section ul.social li a i {
+  font-size: 24px;
+}
+
+.footer-section ul.opening-time {
+  padding-left: 0;
+  list-style: none outside none;
+}
+
+.footer-section ul.opening-time li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.footer-section ul.footer-menu {
+  padding-left: 0;
+}
+
+.footer-section ul.footer-menu li {
+  display: block;
+  padding: 10px 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-section ul.footer-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section .signup-form {
+  padding: 0;
+  border: none;
+}
+
+.footer-section .signup-form .form-control {
+  border-radius: 0;
+  height: 45px;
+}
+
+.footer-section .signup-form .btn-subscribe {
+  border-radius: 0;
+}
+
+.copyright-section {
+  background-color: #1c1c1c;
+  padding: 20px 0 14px;
+}
+
+.copyright-section .back-to-top {
+  color: #fff;
+}
+
+/** styles specific to a page Home, Feedback **/
+.home-services {
+  background-color: #e67e22;
+  color: white;
+}
+
+.home-services h1,
+.home-services h2,
+.home-services h3,
+.home-services h4,
+.home-services h5,
+.home-services h6,
+.home-services p,
+.home-services blockquote,
+.home-services pre,
+.home-services dl,
+.home-services dd,
+.home-services ol,
+.home-services ul,
+.home-services form,
+.home-services fieldset,
+.home-services legend,
+.home-services table,
+.home-services th,
+.home-services td,
+.home-services caption {
+  color: white;
+}
+
+.home-services .col-sm-4, .home-services .col-sm-3 {
+  text-align: center;
+}
