@@ -18,7 +18,7 @@ get_header(); ?>
 		</header>
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="lead">
+			<p class="lead">
 					We are small workshop that provide best care, repair and 
 					maintenance service. We are well equipped to provide better 
 					service in resonable price. We have capability of full dealer.

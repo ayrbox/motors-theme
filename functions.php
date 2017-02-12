@@ -19,6 +19,8 @@ define ('SCRIPTS', THEMEROOT . '/js');
 define('FRAMEWORK', get_template_directory() . '/framework');
 
 
+define('THEMEDIR', get_template_directory());
+
 
 
 
@@ -730,6 +732,7 @@ require get_parent_theme_file_path( '/inc/template-functions.php' );
 /**
  * Customizer additions.
  */
+
 require get_parent_theme_file_path( '/inc/customizer.php' );
 
 /**
